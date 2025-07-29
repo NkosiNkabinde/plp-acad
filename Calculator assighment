@@ -1,0 +1,23 @@
+#creating a claculator
+a= int(input("Enter the first number "))
+b = int(input("enter the second number " ))
+which_operation = input("Which operation do you wat to perfom  ")
+
+sum = a + b
+subtraction = a - b
+multiplication = a * b
+division = a / b
+
+
+
+if which_operation == "+":
+    print(f"{a} + {b} =" ,a+b)
+elif which_operation == "-":
+    print(f"{a} - {b} ", a-b)
+elif which_operation == "*":
+    print(f"{a} * {b}= ", a*b)
+elif which_operation == "/":
+    print(f"{a} / {b}= ", a/b)
+else :
+    print("Invalid operation")
+
